@@ -1,0 +1,60 @@
+/*Body*/
+body{
+    font-family: HoboStd,sans-serif;
+    background: #80bfff;
+}
+
+.ensemble{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(light-grey-terrazzo.png)
+}
+
+
+
+
+
+
+/*Header*/
+h1
+{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+/*Photo d'identité*/
+img{
+    float: right;
+}
+
+
+
+/*Articles*/
+.monarticle{
+    display: inline-block;
+}
+
+
+h2{
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/*Bootstrap*/
+.row .col-md-4 .wrap{color:#fff;padding:20px 15px;}
+.row .col-md-4 .wrap h2{margin:20px 0px;}
+.row .col-md-4 .wrap a{background:#fff;padding:7px 30px;display:inline-block;
+margin:20px 0px;}
+.row .col-md-4:nth-child(1) .wrap{background:#3b237b;}
+.row .col-md-4:nth-child(2) .wrap{background:#df8a14;}
+.row .col-md-4:nth-child(3) .wrap{background:#4fc084;}
+.container{margin-bottom:50px;}
+.mb-20{margin-bottom:20px;}
+	/*col gap 5px */
+	.col-gap-80.container div[class*="col"] { padding-left: 40px !important; padding-right: 40px !important; }
+	.col-gap-80.container > .row { margin-left: -55px !important; margin-right: -55px !important; }
